@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavbarComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -17,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     TuiRootModule,
     TuiDialogModule,
     TuiAlertModule,
-    TuiButtonModule, // Add TuiButtonModule as a reference
+    TuiButtonModule,
+    NavbarComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
